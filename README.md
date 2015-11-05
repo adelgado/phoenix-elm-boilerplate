@@ -6,13 +6,16 @@ Boilerplate for Phoenix + Elm applications
 
 I'm not using other platforms much right now, so feel free to contribute a
 quick start in another platform. For now, here's the link to the docs on how to install
- [Elixir](http://elixir-lang.org/install.html) and
+ [Elm](http://elm-lang.org/install),
+ [Elixir](http://elixir-lang.org/install.html), and
  [Phoenix](http://www.phoenixframework.org/docs/installation) :-)
 
 
 ## Quick-start on OS X
 
 0. Clone this repository and `cd` into it
+
+0. [Install Elm](http://elm-lang.org/install)
 
 1. Install Elixir
 
