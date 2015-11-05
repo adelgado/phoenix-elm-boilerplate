@@ -2,29 +2,48 @@
 
 Boilerplate for Phoenix + Elm applications
 
+## Quick-start on other platforms
+
+I'm not using other platforms much right now, so feel free to contribute a
+quick start in another platform. For now, here's the link to the docs on how to install
+ [Elixir](http://elixir-lang.org/install.html) and
+ [Phoenix](http://www.phoenixframework.org/docs/installation) :-)
+
+
 ## Quick-start on OS X
 
-1. Install [Elixir](http://elixir-lang.org/install.html)
-	$ brew update && brew install elixir
+1. Install Elixir
 
-2. Install the [Hex] package manager
-	$ mix local.hex
+        $ brew update && brew install elixir
+
+
+2. Install the Hex package manager
+
+        $ mix local.hex
+
 
 3. Install Phoenix
-	$ mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v1.0.3/phoenix_new-1.0.3.ez
+
+        $ mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v1.0.3/phoenix_new-1.0.3.ez
+
 
 4. Install PostgreSQL
-	$ brew install postgresql
 
-5. Make sure there is an user called `postgres`
-	$ createuser -s postgres
+        $ brew install postgresql
 
-6. We are all set! Run your Phoenix application:
 
-    $ cd boilerplate
-    $ mix ecto.create
-    $ mix phoenix.server
+5. Make sure there is a PostgreSQL user called `postgres`
 
-You can also run your app inside IEx (Interactive Elixir) as:
+        $ createuser -s postgres
 
-    $ iex -S mix phoenix.server
+
+6. We are all set! Run your Phoenix application
+
+        $ cd boilerplate
+        $ mix ecto.create
+        $ mix phoenix.server
+
+
+7. You can also run your app inside IEx (Interactive Elixir) as:
+
+        $ iex -S mix phoenix.server
