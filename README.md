@@ -12,6 +12,8 @@ quick start in another platform. For now, here's the link to the docs on how to 
 
 ## Quick-start on OS X
 
+0. Clone this repository and `cd` into it
+
 1. Install Elixir
 
         $ brew update && brew install elixir
